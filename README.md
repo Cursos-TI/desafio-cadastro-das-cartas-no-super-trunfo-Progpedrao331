@@ -1,13 +1,23 @@
-# Super Trunfo - Países | Nível Aventureiro
+# 🧠 Super Trunfo - Países | Nível Mestre
 
-### Atributos Calculados
-- Densidade populacional (`população / área`)
-- PIB per capita (`PIB * 1.000.000.000 / população`)
-- Diferença entre os valores das duas cartas
+### Super Poder
+Calculado com a fórmula:
+- superPoder = população + área + PIB + pontosTurísticos + PIB per capita + (1 / densidade)
+
+### Comparações
+- População
+- Área
+- PIB
+- Pontos turísticos
+- Densidade (menor é melhor)
+- PIB per capita
+- Super Poder
+
+Cada comparação exibe `1` se a Carta 1 venceu, ou `0` se não venceu.
 
 ### Funcionalidades
 - Entrada com `scanf`
 - Saída com `printf`
-- Cálculos com operadores aritméticos básicos
+- Operadores relacionais e aritméticos
 
 ---
